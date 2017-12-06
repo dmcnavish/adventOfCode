@@ -6,7 +6,7 @@ from advent_of_code.day2 import find_difference
 from advent_of_code.day2 import find_divisible_difference
 
 
-class Day1Tests(unittest.TestCase):
+class Day2Tests(unittest.TestCase):
 
     def test_parse_row(self):
         result = parse_row('5   1    9  5')
