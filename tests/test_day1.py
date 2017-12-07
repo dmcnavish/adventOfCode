@@ -21,7 +21,6 @@ class Day1Tests(unittest.TestCase):
         self.assertEqual(sum(find_half_dups("123123")), 12)
         self.assertEqual(sum(find_half_dups("12131415")), 4)
 
-
     def test_find_val_of_half_index(self):
         result = find_val_of_half_index(2, [1,2,3,4])
         self.assertEqual(result, 0)
