@@ -44,11 +44,11 @@ def find_val_of_half_index(idx, digits):
 
 
 def main():
-    captcha = get_input('day1.in')[0]
+    captcha = get_input('../input/day1.in')[0]
     dups = find_dups(captcha)
     print "part 1 total: " + str( sum(dups) )
 
-    captcha = get_input('day1-part2.in')[0]
+    captcha = get_input('../input/day1-part2.in')[0]
     dups = find_half_dups(captcha)
     print "part 2 total: " + str( sum(dups) )
 

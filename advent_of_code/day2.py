@@ -44,7 +44,7 @@ def parse_row(row):
 
 
 def main():
-    spreadsheet = get_input('day2.in')
+    spreadsheet = get_input('../input/day2.in')
 
     differences = []
     for row in spreadsheet:
@@ -52,7 +52,7 @@ def main():
 
     print "checksum: " + str(sum(differences))
 
-    spreadsheet = get_input('day2-part2.in')
+    spreadsheet = get_input('../input/day2-part2.in')
     divisions = []
     for row in spreadsheet:
         divisions.append(find_divisible_difference(row))

@@ -21,7 +21,7 @@ def process_instructions(jumps, use_strange_jump = False):
 
 
 def main():
-    jumps_input = get_input('day4.in')
+    jumps_input = get_input('../input/day4.in')
 
     jumps = map(int, jumps_input)
     steps = process_instructions(jumps, False)
