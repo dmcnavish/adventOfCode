@@ -30,7 +30,7 @@ def contains_anagram(input_data):
 
 
 def main():
-    input_data = get_input('day4.in')
+    input_data = get_input('../input/day4.in')
     num_valid = 0
     for pass_phrase in input_data:
         if is_valid(pass_phrase):
